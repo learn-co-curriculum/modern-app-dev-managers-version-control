@@ -2,31 +2,37 @@
 
 ## Learning Goals
 
-- Learning Goal 1
-- Learning Goal 2
+- Briefly explain the function of a version control.
 
-## Introduction
+## Version Control
 
-A 1-2 sentence summary of what will be covered.
+Modern software can have hundreds of millions lines of code with thousands of
+people contributing to it.
+[This visual](https://www.informationisbeautiful.net/visualizations/million-lines-of-code/)
+showcases just how big modern applications can be. As application complexity
+increased, software engineers realized they needed a way to keep track of the
+various changes being made to a project, so version control systems (VCS) were
+developed.
 
-## Topic 1
+A version control system:
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
+- Keeps track of the changes made to the codebase allowing us to record how a
+  project changes over time.
+- Facilitates collaboration by allowing us to track who made changes to the
+  codebase, when they were made, and how it was changed.
+- Makes it easy to rollback or revert changes to a codebase. These systems can
+  keep track of every single change made to a codebase.
 
-## Topic 2
+## GitHub
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
+A version control system doesn’t usually provide a way to sync records across
+systems. This is where services like [GitHub](https://github.com/) comes in.
+They can host repositories (folders that store our project) and provide tools
+for collaboration. You can check out all the
+[features of GitHub here](https://github.com/features).
 
 ## Conclusion
 
-A short one or two paragraph summary of the contents of the lessons, recapping
-the learning goals.
-
-## Resources
-
-- [Resource Link 1](example.com)
-- [Resource Link 2](example.com)
+We have learned what version control systems are and how they make software
+development easier. Any modern software engineering team is likely to use a
+version control system in their workflow.
